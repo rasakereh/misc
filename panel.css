@@ -1,0 +1,89 @@
+<style>
+  #pnl_register{
+    margin-bottom:30px;
+  }
+  .wizard {
+
+  }
+
+  .wizard .nav-tabs {
+    position: relative;
+    margin-bottom: 0;
+    display:flex;
+    border:none;
+    direction:rtl;
+  }
+
+  .wizard > div.wizard-inner {
+    position: relative;
+  }
+
+  .connecting-line {
+    height: 2px;
+    background: #e0e0e0;
+    position: absolute;
+    width: 93%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 32%;
+    z-index: 1;
+  }
+
+  .wizard .nav-tabs > li.active > a, .wizard .nav-tabs > li.active > a:hover, .wizard .nav-tabs > li.active > a:focus {
+    color: #555555;
+    cursor: default;
+    border: 0;
+    border-bottom-color: transparent;
+  }
+
+  span.round-tab {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    background: #fff;
+    border: 2px solid #e0e0e0;
+    z-index: 2;
+    position: absolute;
+    left: 0;
+    text-align: center;
+    font-size: 16px;
+  }
+  span.round-tab i{
+    color:#555555;
+  }
+  .wizard li.active span.round-tab {
+    background: #2372c3;
+    border: 3px solid #2372c3;
+  }
+  .wizard li.active span.round-tab i{
+    color: #fff;
+  }
+
+
+  .wizard .nav-tabs > li {
+    width: 27%;
+    float:left;
+  }
+
+  .wizard .nav-tabs p{font-size:11px;font-weight:bold;text-align:center;color:#333;margin:0;}
+  .wizard .nav-tabs > li a {
+    width: 40px;
+    height: 40px;
+    margin: 20px auto;
+    padding: 0;
+  }
+
+  .wizard .nav-tabs > li a:hover {
+    background: transparent;
+  }
+
+  .wizard .tab-pane {
+    position: relative;
+  }
+
+  .wizard h3 {
+    margin-top: 0;
+  }
+</style>
